@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 1400px;
+  margin: 6rem 0rem;
+}
+.head {
+  width: 60vw;
+  height: 291px;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin: auto;
+}
+.head-body {
+  margin: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 291px;
+}
+.head-body div {
+  margin: 1rem;
+}
+.avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 120px;
+  background-color: gray;
+  overflow: hidden;
+}
+.details {
+  width: 40vw;
+}
+.name {
+  width: 100%;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  /* identical to box height, or 64px */
+
+  letter-spacing: -1.85px;
+  text-decoration-line: underline;
+
+  color: #e16259;
+}
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 145%;
+  /* or 29px */
+}

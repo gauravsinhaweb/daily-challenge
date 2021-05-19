@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
+  const [selectedCard, setSelectedCard] = useState();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <Navbar />
+        <Hero setSelectedCard={setSelectedCard} selectedCard={selectedCard} />
+      </div>{" "}
+      <div style={{ textAlign: "center", opacity: "0.5  " }}>
+        <p>Developed by Gaurav Sinha</p>
+      </div>
+    </>
   );
 }
 

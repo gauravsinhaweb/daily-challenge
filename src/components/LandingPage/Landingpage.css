@@ -1,0 +1,36 @@
+.card {
+  position: relative;
+  width: 20vw;
+  height: 15vh;
+  margin: 1rem;
+  background: #ffffff;
+  /* Medium Shadow */
+
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.body div {
+  padding: 0.5rem;
+  width: 100%;
+}
+.top {
+  font-size: 14px;
+  color: black;
+  opacity: 0.6;
+  text-transform: capitalize;
+}
+.top span {
+  text-transform: uppercase;
+}
+
+.middle {
+  font-size: 22px;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.bottom {
+  font-size: 15px;
+  color: #e16259;
+}

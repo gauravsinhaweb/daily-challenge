@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "task by kawa space",
+  "main": "index.js",
+  "author": "gauravsinhaweb <sinhagaaurav37@gmail.com>",
+  "license": "MIT"
 }
