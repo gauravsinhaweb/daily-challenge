@@ -5,7 +5,7 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
+    "@testing-library/user-event": "^13.1.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -37,7 +37,12 @@
   },
   "description": "task by kawa space",
   "main": "index.js",
+<<<<<<< HEAD
   "author": "sinhagaurav.me@gmail.com",
   "license": "MIT",
   "repository": "https://github.com/gauravsinhaweb/kawa-space.git"
+=======
+  "author": "gauravsinhaweb <sinhagaurav.me@gmail.com>",
+  "license": "MIT"
+>>>>>>> 825e341741870ba48124f20d80172585b04a6da7
 }
