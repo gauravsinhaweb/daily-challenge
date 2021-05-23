@@ -10,13 +10,16 @@
   border-radius: 4px;
   cursor: pointer;
 }
+.card:hover {
+  background-color: #a259ff;
+  color: #ffffff;
+}
 .body div {
   padding: 0.5rem;
   width: 100%;
 }
 .top {
   font-size: 14px;
-  color: black;
   opacity: 0.6;
   text-transform: capitalize;
 }
@@ -26,7 +29,6 @@
 
 .middle {
   font-size: 22px;
-  color: black;
   text-transform: capitalize;
   font-weight: 700;
 }

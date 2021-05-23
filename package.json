@@ -37,6 +37,7 @@
   },
   "description": "task by kawa space",
   "main": "index.js",
-  "author": "gauravsinhaweb <sinhagaaurav37@gmail.com>",
-  "license": "MIT"
+  "author": "sinhagaurav.me@gmail.com",
+  "license": "MIT",
+  "repository": "https://github.com/gauravsinhaweb/kawa-space.git"
 }
