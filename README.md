@@ -6,5 +6,5 @@
 5. `npm install`
 6. `npm start`
 
-## It is made my using Create-React-App
+## It is made by using Create-React-App
 here is the link for to install CRA on your PC https://create-react-app.dev/docs/getting-started/
